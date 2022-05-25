@@ -2,7 +2,6 @@ require('colors')
 const {headerApp} = require("./helpers/messages");
 const {inquirerMenu, processOption, EXIT_KEY} = require("./helpers/inquirer-menu");
 
-
 const main = async() => {
     let opt;
     let res;
@@ -16,4 +15,3 @@ const main = async() => {
 }
 
 main();
-
